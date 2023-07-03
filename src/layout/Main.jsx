@@ -7,7 +7,7 @@ import Home from "../home/Home";
 const Main = () => {
   
   return (
-    <div className="max-w-screen-xl scroll-smooth mx-auto bg-gray-200 ">
+    <div className="  mx-auto bg-stone-950">
       <Navbar />
       {/* <Home/> */}
       <Outlet />

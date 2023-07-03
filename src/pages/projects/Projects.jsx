@@ -10,8 +10,8 @@ const Projects = () => {
   return (
     <div className="py-20">
       <div className="flex justify-center">
-        <p className="bg-primary inline text-4xl text-white p-4 rounded">
-          Projects
+        <p className=" text-3xl lg:text-4xl shadow-md shadow-pink-600 text-white p-4 rounded">
+         My Recent Projects
         </p>
       </div>
       <div className="lg:grid gap-4 px-4 mt-5 grid-cols-3">
@@ -23,13 +23,13 @@ const Projects = () => {
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className="bg-primary flex justify-center text-xl text-white p-2 rounded">
+            <p className=" shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
               Art-School
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="btn btn-primary flex"
+              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
               onClick={() => window.my_modal_4.showModal()}
             >
               Projects Details
@@ -95,13 +95,13 @@ const Projects = () => {
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className="bg-primary flex justify-center text-xl text-white p-2 rounded">
+            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
               Education-learning-toys
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="btn btn-primary flex"
+              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
               onClick={() => window.my_modal_5.showModal()}
             >
               Projects Details
@@ -167,13 +167,13 @@ const Projects = () => {
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className="bg-primary flex justify-center text-xl text-white p-2 rounded">
+            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
             Chef-Recipe-Hunter
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="btn btn-primary flex"
+              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
               onClick={() => window.my_modal_6.showModal()}
             >
               Projects Details

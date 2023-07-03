@@ -6,24 +6,24 @@ const Navbar = () => {
   const navItems = (
     <>
       <li className="">
-        <Link to='/' className="text-white hover:text-white">Home</Link>
+        <NavLink to='/' className="text-white hover:text-white">Home</NavLink>
       </li>
       <li>
-        <Link to='/about' className="text-white hover:text-white" >About</Link>
+        <NavLink to='/about' className="text-white hover:text-white" >About</NavLink>
       </li>
       <li>
-        <Link to='/skills' className="text-white hover:text-white" >Skills</Link>
+        <NavLink to='/skills' className="text-white hover:text-white" >Skills</NavLink>
       </li>
       <li>
-        <Link to='/project' className="text-white hover:text-white">Project</Link>
+        <NavLink to='/project' className="text-white hover:text-white">Project</NavLink>
       </li>
       <li>
-        <Link to='/contact' className="text-white hover:text-white">Contact</Link>
+        <NavLink to='/contact' className="text-white hover:text-white">Contact</NavLink>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-base-200 z-10 fixed bg-opacity-10 max-w-screen-xl mx-auto ">
+    <div className="navbar bg-base-200 z-10 fixed bg-opacity-10 lg:px-24 mx-auto ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,7 +49,7 @@ const Navbar = () => {
            {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl font-cursive text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-600 {
+        <a className=" text-2xl text-transparent bg-clip-text  font-bold bg-gradient-to-r from-fuchsia-700 via-pink-600 to-purple-600 {
           
         }">SHAYKOT_SELIM</a>
       </div>
