@@ -26,10 +26,10 @@ const Navbar = () => {
     <div className="navbar bg-base-200 z-10 fixed bg-opacity-10 lg:px-24 mx-auto ">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost text-white lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -44,7 +44,7 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow text-white rounded-xl w-80  bg-gradient-to-r from-purple-500 to-primary "
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow-md text-white rounded-xl w-80 bg-black shadow-fuchsia-600   "
           >
            {navItems}
           </ul>

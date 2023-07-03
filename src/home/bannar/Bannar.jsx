@@ -27,13 +27,14 @@ const Bannar = () => {
           <p className="text-4xl lg:text-8xl font-medium  text-white">Hi I'm</p>
           <p className="mt-2 text-3xl lg:text-7xl font-medium  text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-700 via-pink-600 to-purple-600">Shaykot Hossain Selim</p>
           <p className=" text-2xl lg:text-4xl text-white">A {text}</p>
-         <div className="mt-6">
+         <div className="mt-6 flex gap-4">
          <Link target="_blank" to="https://drive.google.com/file/d/1IBgsxO6YA8HJNZsI6Bf0X7MB77XB9d2F/view?usp=drive_link" className="text-md lg:text-lg shadow-md shadow-pink-600 text-white p-4 rounded hover:shadow-purple-600 ">Download Resume</Link>
+         <Link to="/contact" className="text-md lg:text-lg shadow-md shadow-pink-600 text-white p-4 rounded hover:shadow-purple-600">Hire Me</Link>
          </div>
         </div>
         <div className="flex justify-center">
           <img
-            className="w-[350px]   mt-4 shadow-md  shadow-fuchsia-600 rounded-full"
+            className="w-[350px] mt-4 shadow-md  shadow-fuchsia-600 rounded-full hover:shadow-pink-600"
             src={selim2}
             alt=""
           />

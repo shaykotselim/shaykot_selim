@@ -2,7 +2,7 @@ import React from 'react';
 import shaykot from "../../assets/shaykot/shaykot.png"
 const About = () => {
     return (
-        <div className='mt-4'>
+        <div className='mt-4 lg:py-20'>
             <div className='lg:grid grid-cols-3 items-center lg:p-20'>
                 <div className='flex justify-center'>
                     <img className=' shadow-md shadow-fuchsia-700 rounded' src={shaykot} alt="" />

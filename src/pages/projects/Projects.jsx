@@ -8,7 +8,7 @@ import { FaHandPointRight } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <div className="py-20">
+    <div className="lg:py-20">
       <div className="flex justify-center">
         <p className=" text-3xl lg:text-4xl shadow-md shadow-pink-600 text-white p-4 rounded">
          My Recent Projects
@@ -17,19 +17,19 @@ const Projects = () => {
       <div className="lg:grid gap-4 px-4 mt-5 grid-cols-3">
         {/*---------------------------------------------Art School Area --------------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll ">
+          <div className="h-[400px] overflow-y-scroll mt-8 ">
             <img className=" p-2" src={artSchool} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className=" shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
+            <p className=" shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600">
               Art-School
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
+              className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600"
               onClick={() => window.my_modal_4.showModal()}
             >
               Projects Details
@@ -89,19 +89,19 @@ const Projects = () => {
         </div>
         {/* ------------------------------------- Education Learning Area Here--------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll ">
+          <div className="h-[400px] overflow-y-scroll mt-8 ">
             <img className=" p-2" src={educationLearning} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
+            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600">
               Education-learning-toys
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
+              className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600"
               onClick={() => window.my_modal_5.showModal()}
             >
               Projects Details
@@ -161,19 +161,19 @@ const Projects = () => {
         </div>
         {/* -------------------------------------Chef Recipe Hunter---------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll ">
+          <div className="h-[400px] overflow-y-scroll mt-8 ">
             <img className=" p-2" src={chefRecipe} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
           <div className=" mt-4 px-2">
-            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded">
+            <p className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600">
             Chef-Recipe-Hunter
             </p>{" "}
             <br />
             <div className="divider"></div>
             <p
-              className="p-2 text-xl text-white rounded bg-gradient-to-r  shadow-fuchsia-400 from-fuchsia-700 via-pink-600 to-purple-600 hover:text-white hover:rounded hover:bg-gradient-to-l justify-center flex"
+              className="shadow-md shadow-fuchsia-600 flex justify-center text-xl text-white p-2 rounded hover:shadow-pink-600"
               onClick={() => window.my_modal_6.showModal()}
             >
               Projects Details
