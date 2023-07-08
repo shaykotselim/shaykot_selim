@@ -4,7 +4,7 @@ import gmail from "../../assets/shaykot/gmail.png"
 import messenger from "../../assets/shaykot/messenger.png"
 const Contact = () => {
   return (
-    <div className="lg:py-20 mt-20">
+    <div className="lg:py-20 sm:mt-20 md:lg:mt-0">
       <div  className="flex justify-center">
         <p className="shadow-md shadow-fuchsia-600 text-4xl p-4 rounded text-white hover:shadow-pink-600">Connect With Me</p>
       </div>
