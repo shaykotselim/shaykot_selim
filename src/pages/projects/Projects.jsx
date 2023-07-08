@@ -17,8 +17,8 @@ const Projects = () => {
       <div className="lg:grid gap-4 px-4 mt-5 grid-cols-3">
         {/*---------------------------------------------Art School Area --------------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll mt-8 ">
-            <img className=" p-2" src={artSchool} alt="" />
+          <div className="mt-8 shadow-md shadow-fuchsia-600 rounded">
+            <img className=" h-[400px] object-cover object-top hover:object-bottom duration-[20s] cursor-pointer w-full" src={artSchool} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
@@ -89,8 +89,8 @@ const Projects = () => {
         </div>
         {/* ------------------------------------- Education Learning Area Here--------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll mt-8 ">
-            <img className=" p-2" src={educationLearning} alt="" />
+          <div className="mt-8 shadow-md shadow-fuchsia-600 rounded ">
+            <img className="h-[400px] object-cover object-top hover:object-bottom duration-[20s] cursor-pointer w-full" src={educationLearning} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
@@ -161,8 +161,8 @@ const Projects = () => {
         </div>
         {/* -------------------------------------Chef Recipe Hunter---------------------------- */}
         <div>
-          <div className="h-[400px] overflow-y-scroll mt-8 ">
-            <img className=" p-2" src={chefRecipe} alt="" />
+          <div className="mt-8 shadow-md shadow-fuchsia-600 rounded">
+            <img className="h-[400px] object-cover object-top hover:object-bottom duration-[20s] cursor-pointer w-full" src={chefRecipe} alt="" />
           </div>
 
           {/* Open the modal using ID.showModal() method */}
